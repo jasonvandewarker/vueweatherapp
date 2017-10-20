@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 <div id="main">
 
     <nav v-bind:class="active" v-on:click.prevent>
@@ -52,10 +52,6 @@ a:hover{
 section, footer, header, aside, nav{
     display: block;
 }
-
-/*-------------------------
-    The menu
---------------------------*/
 
 nav{
     display:inline-block;
@@ -111,4 +107,4 @@ p b{
     text-transform:uppercase;
     font-size:18px;
 }
-</style>
+</style>  -->
