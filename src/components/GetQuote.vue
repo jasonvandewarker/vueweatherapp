@@ -7,6 +7,7 @@
     <p>Here's some stuff.</p>
     <button type="button" class="btn btn-primary" v-on:click="getQuote()">Push this button</button>
     <p>{{ quote }}</p>
+    <p>{{ test }}</p>
 </div>
 </div>
 </div>
@@ -16,6 +17,7 @@
 export default {
   data () {
     return {
+      test: 'this is only a test',
       quote: ''
     }
   },
