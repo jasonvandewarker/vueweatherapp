@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <nav-bar></nav-bar>
     <get-quote></get-quote>
   </div>
 </template>
 
 <script>
 import GetQuote from './components/GetQuote.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'app',
   components: {
-    GetQuote
+    GetQuote,
+    NavBar
   }
 }
 </script>
