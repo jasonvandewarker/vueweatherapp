@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <get-quote></get-quote>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import GetQuote from './components/GetQuote.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    GetQuote
   }
 }
 </script>
