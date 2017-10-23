@@ -2,7 +2,7 @@
   <div>
         
     <h1>Testing out this Vue thing.</h1>
-      <div class="well">
+      <div class="ui card">
           <p>Here's some stuff.</p>
           <button type="button" class="btn btn-primary" v-on:click="getQuote()">Push this button</button>
           <p>This is where the quote will go {{ quote }}</p>
